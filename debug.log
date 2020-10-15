@@ -1,0 +1,70 @@
+[1015/025653.295:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.323:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.508:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.508:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.508:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.508:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.508:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.508:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.508:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.508:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.509:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.509:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.509:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.509:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.509:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.509:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.509:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.509:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.509:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.509:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025653.509:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1015/025653.509:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1015/025654.260:ERROR:exception_snapshot_win.cc(100)] thread ID 9512 not found in process
+[1015/025654.260:ERROR:exception_snapshot_win.cc(100)] thread ID 17224 not found in process
+[1015/025656.901:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025656.901:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025656.901:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025656.901:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025656.901:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025656.901:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025656.901:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025656.901:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025656.901:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025656.901:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025656.901:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
+[1015/025656.901:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1015/025656.901:ERROR:exception_snapshot_win.cc(100)] thread ID 3736 not found in process
+[1015/025657.994:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d50057c4c0 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1015/025657.994:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge_elf.dll
+[1015/025657.994:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d5005c0dd0 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1015/025657.994:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge.dll
+[1015/025657.999:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d50057c4c0 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1015/025657.999:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge_elf.dll
+[1015/025657.999:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d5005c0dd0 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1015/025657.999:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge.dll
+[1015/025658.000:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d50057c4c0 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1015/025658.000:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge_elf.dll
+[1015/025658.000:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d5005c0dd0 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1015/025658.000:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge.dll
+[1015/025659.116:ERROR:minidumpwritedump_with_crashpad_info.cc(452)] Failed to call MiniDumpWriteDump: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x8007012B)
+[1015/025659.116:ERROR:minidumpwritedump_with_crashpad_info.cc(452)] Failed to call MiniDumpWriteDump: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x8007012B)
+[1015/025659.116:ERROR:minidumpwritedump_with_crashpad_info.cc(452)] Failed to call MiniDumpWriteDump: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x8007012B)
+[1015/025659.116:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
+[1015/025659.116:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
+[1015/025659.116:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
+[1015/025659.116:ERROR:crash_report_exception_handler.cc(132)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[1015/025659.116:ERROR:crash_report_exception_handler.cc(132)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[1015/025659.116:ERROR:crash_report_exception_handler.cc(132)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[1015/025659.137:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d50057c4c0 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1015/025659.137:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge_elf.dll
+[1015/025659.137:ERROR:process_memory_win.cc(73)] ReadMemory at 0x246284fc4c0 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1015/025659.137:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge_elf.dll
+[1015/025659.137:ERROR:process_memory_win.cc(73)] ReadMemory at 0x222129ac4c0 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1015/025659.137:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge_elf.dll
+[1015/025659.137:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d5005c0dd0 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1015/025659.137:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge.dll
+[1015/025659.138:ERROR:process_memory_win.cc(73)] ReadMemory at 0x246285403c0 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1015/025659.138:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge.dll
+[1015/025659.138:ERROR:process_memory_win.cc(73)] ReadMemory at 0x222129f0f10 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1015/025659.138:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge.dll

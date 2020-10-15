@@ -1,0 +1,90 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- receiver
+- send
+- select_currency_rates
+- cu_conversion
+- select_first_currency
+- rate_first_currency
+- select_second_currency
+- transfer_duration
+- ask
+- transfer_rates
+- location
+- city
+- do_complaint
+- sender
+- irrelevant
+entities:
+- irrelevant_response
+- requirement_receiver
+- requirement_send
+- currency_selector
+- ra_conversion
+- first_currency_to_conversion
+- first_currency_amount
+- second_currency_to_conversion
+- duration_of_transfer
+- ask_more
+- ask more
+- company_transfer_rates
+- location_in_pakistan
+- ask_city
+- complain
+- requirement_sender
+slots:
+  ask_city:
+    type: text
+  ask_more:
+    type: text
+  company_transfer_rates:
+    type: text
+  complain:
+    type: text
+  currency_selector:
+    type: text
+  duration_of_transfer:
+    type: text
+  first_currency_amount:
+    type: text
+  first_currency_to_conversion:
+    type: text
+  irrelevant_response:
+    type: text
+  location_in_pakistan:
+    type: text
+  ra_conversion:
+    type: text
+  requirement_receiver:
+    type: text
+  requirement_send:
+    type: text
+  requirement_sender:
+    type: unfeaturized
+  second_currency_to_conversion:
+    type: text
+responses:
+  utter_goodbye:
+  - text: Its being nice to talk to you, bye bye :)
+actions:
+- action_greet
+- utter_goodbye
+- action_receiver
+- action_sender
+- action_select_currency
+- action_currency_rates
+- action_select_first_currency
+- action_add_first_currency_amount
+- action_select_second_currency
+- action_calculate_currency_conversion
+- action_duration_of_transfer
+- action_ask_more
+- action_company_transfer_rates
+- action_locations_in_pakistan
+- action_get_address
+- action_complaint
+- action_irrelevant_response
