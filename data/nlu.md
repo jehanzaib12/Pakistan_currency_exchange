@@ -21,78 +21,74 @@
 - thnks
 
 ## intent:receiver
-- [Transfer Requirements]{"entity":"requirement_receiver"}
-- i need to know about [Transfer of receiver]{"entity":"requirement_receiver"}
-- i need to know about [Transfer Requirements]{"entity":"requirement_receiver"}
-- [Transfer Receiver ]{"entity":"requirement_receiver"}
+- [Transfer](requirement_receiver) Requirements
+- i need to know about [Transfer of receiver](requirement_receiver)
+- i need to know about [Transfer Requirements](requirement_receiver)
+- [Transfer Receiver ](requirement_receiver)
+- [transfer](requirement_receiver) requirements
 
 ## intent:send
-- [Sender Requirements']{"entity":"requirement_send"}
-- ['Sender requirement']{"entity":"requirement_send"}
-- i need to know about [Sender Requirements']{"entity":"requirement_send"}
-- please tell about [Sender Requirements']{"entity":"requirement_send"}
-- [Requirements of sender']{"entity":"requirement_send"}
-- [Requirements sender']{"entity":"requirement_send"}
-- [Sender Requirement']{"entity":"requirement_send"}
+- [Sender Requirements'](requirement_send)
+- ['Sender requirement'](requirement_send)
+- i need to know about [Sender Requirements'](requirement_send)
+- please tell about [Sender Requirements'](requirement_send)
+- [Requirements of sender'](requirement_send)
+- [Requirements sender'](requirement_send)
+- [Sender Requirement'](requirement_send)
 
 ## intent:select_currency_rates
-- [Rates of Currency]{"entity":"currency_selector"}
-- tell me the [Rates of Currency]{"entity":"currency_selector"}
-- please tell about [Rates of Currency]{"entity":"currency_selector"}
-
-
+- [Rates of Currency](currency_selector)
+- tell me the [Rates of Currency](currency_selector)
+- please tell about [Rates of Currency](currency_selector)
+- [rates of currency](currency_selector)
 
 ## intent:cu_conversion
-- [Currency Conversion]{"entity":"ra_conversion"}
-- i want to perform [Currency Conversion]{"entity":"ra_conversion"}
-- [Currency Conversion]{"entity":"ra_conversion"}
+- [Currency Conversion](ra_conversion)
+- i want to perform [Currency Conversion](ra_conversion)
 
 ## intent:select_first_currency
-- [US Dollar]{"entity":"first_currency_to_conversion"}
-- [EURO]{"entity":"first_currency_to_conversion"}
-- [British Pound]{"entity":"first_currency_to_conversion"}
-- [Saudi Riyal]{"entity":"first_currency_to_conversion"}
-- [UAE Dirham]{"entity":"first_currency_to_conversion"}
-- [Australian Dollar]{"entity":"first_currency_to_conversion"}
-- [Canadian Dollar]{"entity":"first_currency_to_conversion"}
-- [Singapore Dollar]{"entity":"first_currency_to_conversion"}
-- [South africa Rand]{"entity":"first_currency_to_conversion"}
+- [US Dollar](first_currency_to_conversion)
+- [EURO](first_currency_to_conversion)
+- [British Pound](first_currency_to_conversion)
+- [Saudi Riyal](first_currency_to_conversion)
+- [UAE Dirham](first_currency_to_conversion)
+- [Australian Dollar](first_currency_to_conversion)
+- [Canadian Dollar](first_currency_to_conversion)
+- [Singapore Dollar](first_currency_to_conversion)
+- [South africa Rand](first_currency_to_conversion)
 
 ## intent:rate_first_currency
-- [100]{"entity":"first_currency_amount"}
+- [100](first_currency_amount)
 
 ## intent:select_second_currency
-- [PKR]{"entity":"second_currency_to_conversion"}
-
+- [PKR](second_currency_to_conversion)
 
 ## intent:transfer_duration
-- [duration of transfer]{"entity":"duration_of_transfer"}
-- what is the [duration of transfer]{"entity":"duration_of_transfer"}
+- [duration of transfer](duration_of_transfer)
+- what is the [duration of transfer](duration_of_transfer)
 
 ## intent:ask
-- i want to [ask more]{"entity":"ask more"}
-- [ask more]{"entity":"ask more"}
+- i want to [ask more](ask more)
+- [ask more](ask more)
 
 ## intent:transfer_rates
-- i want to ask about [Transfer rates]{"entity":"company_transfer_rates"}
-- [Transfer rates]{"entity":"company_transfer_rates"}
+- i want to ask about [Transfer rates](company_transfer_rates)
+- [Transfer rates](company_transfer_rates)
 
 ## intent:location
-- i need to ask about [Loc in Pakistan]{"entity":"location_in_pakistan"}
-- [Loc in Pakistan]{"entity":"location_in_pakistan"}
-- [Loc in Pakistan]{"entity":"location_in_pakistan"}
+- i need to ask about [Loc in Pakistan](location_in_pakistan)
+- [Loc in Pakistan](location_in_pakistan)
 
 ## intent:city
-- [ABBOTTABAD]{"entity":"ask_city"}
+- [ABBOTTABAD](ask_city)
 
 ## intent:do_complaint
-- [complaint]{"entity":"complain"}
-- i need to do [complaint]{"entity":"complain"}
-- [complain]{"entity":"complain"}
-
+- [complaint](complain)
+- i need to do [complaint](complain)
+- [complain](complain)
 
 ## intent:irrelevant
-- [i don't know]{"entity":"irrelevant_response"}
-- [i dont know]{"entity":"irrelevant_response"}
-- [i cant tell]{"entity":"irrelevant_response"}
-- [i can't tell]{"entity":"irrelevant_response"}
+- [i don't know](irrelevant_response)
+- [i dont know](irrelevant_response)
+- [i cant tell](irrelevant_response)
+- [i can't tell](irrelevant_response)

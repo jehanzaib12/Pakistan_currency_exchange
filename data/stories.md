@@ -2,47 +2,41 @@
 * greet
   - action_greet
 
-
-# story_Requirements_of_Receiver
+## story_Requirements_of_Receiver
 * receiver{"requirement_receiver":"Transfer Requirements"}
     - slot{"requirement_receiver":"Transfer Requirements"}
     - action_receiver
 
-# story_Requirements_of_sender
+## story_Requirements_of_sender
 * send{"requirement_send":"Sender Requirement"}
     - slot{"requirement_send":"Sender Requirement"}
     - action_sender
-    
-# story_Requirements_of_sender_with_greet
+
+## story_Requirements_of_sender_with_greet
 * greet
   - action_greet
 * send{"requirement_send":"Sender Requirement"}
     - slot{"requirement_send":"Sender Requirement"}
     - action_sender
 
-# story_select_currency
+## story_select_currency
 * select_currency_rates{"currency_selector":"Rates of Currency"}
     - slot{"currency_selector":"Rates of Currency"}
     - action_select_currency
-    
 
-# story_ask_more
+## story_ask_more
 * ask{"ask_more":"I want to ask more"}
    - slot{"ask_more":"I want to ask more"}
    - action_ask_more
 
-
-
-
-    
-# story_company_transfer_rates
+## story_company_transfer_rates
 * transfer_rates{"company_transfer_rates":"Transfer rates"}
    - slot{"company_transfer_rates":"Transfer rates"}
    - action_company_transfer_rates
 * goodbye
   - utter_goodbye
 * goodbye
-  
+
 ##story_goodbye
 * goodbye
     - utter_goodbye
@@ -78,7 +72,6 @@
     - slot{"second_currency_to_conversion":"PKR"}
     - action_calculate_currency_conversion
 
-
 ## story_greet_duration_of_transfer
 * greet
     - action_greet
@@ -95,7 +88,7 @@
 * select_currency_rates{"currency_selector":"Currency Rates"}
     - slot{"currency_selector":"Currency Rates"}
     - action_select_currency
-    
+
 ## story_greet_Requirements_of_sender
 * greet
     - action_greet
@@ -109,7 +102,7 @@
    - action_locations_in_pakistan
 * city{"ask_city":"ABBOTTABAD"}
    - slot{"ask_city":"ABBOTTABAD"}
-   - action_get_address   
+   - action_get_address
 
 ## story_complaint
 * do_complaint{"complain":"complaint"}
@@ -120,7 +113,17 @@
 * goodbye
   - utter_goodbye
 
-#story_irrelevant_response
+##story_irrelevant_response
 * irrelevant{"irrelevant_response":"i dont know"}
    - slot{"irrelevant_response":"i dont know"}
    - action_irrelevant_response
+
+## New Story
+
+* greet
+    - action_greet
+* select_currency_rates{"currency_selector":"rates of currency"}
+    - slot{"currency_selector":"rates of currency"}
+    - action_select_currency
+* ask{"ask more":"ask more"}
+    - action_ask_more
