@@ -18,8 +18,8 @@ class Action_irrelevant_response(Action):
     def run(self, dispatcher, tracker, domain):
 
         try:
-            #id = tracker.sender_id
-            id = 2769228663176300
+            id = tracker.sender_id
+            #id = 2769228663176300
             print("getting id")
             id = int(id)
             print(type(id))
@@ -67,14 +67,10 @@ class Action_irrelevant_response(Action):
                     },
                     {
                         "content_type": "text",
-                        "title": "Receiver Requirements",
-                        "payload": "Receiver Requirements"
+                        "title": "Transfer Requirements",
+                        "payload": "Transfer Requirements"
                     },
-                    {
-                        "content_type": "text",
-                        "title": "Sender Requirement",
-                        "payload": "Sender Requirement"
-                    },
+
                     {
                         "content_type": "text",
                         "title": "Complaint",
@@ -99,8 +95,8 @@ class Actiongreet(Action):
 
         try:
 
-            #id = tracker.sender_id
-            id = 2769228663176300
+            id = tracker.sender_id
+            #id = 2769228663176300
 
             print("getting id")
             id = int(id)
@@ -174,13 +170,8 @@ class Actiongreet(Action):
                     },
                     {
                         "content_type": "text",
-                        "title": "Receiver Requirements",
-                        "payload": "Receiver Requirements"
-                    },
-                    {
-                        "content_type": "text",
-                        "title": "Sender Requirement",
-                        "payload": "Sender Requirement"
+                        "title": "Transfer Requirements",
+                        "payload": "Transfer Requirements"
                     },
                     {
                         "content_type": "text",
@@ -337,9 +328,9 @@ class Action_company_transfer_rates(Action):
             #                          "Western Union")
             dispatcher.utter_message("The transfer rates of Money Gram and Western Union are attached above ")
 
-           # id = tracker.sender_id
+            id = tracker.sender_id
             print("getting id")
-            id = 2769228663176300
+            #id = 2769228663176300
             id = int(id)
             print(type(id))
             userid = requests.get(
@@ -790,6 +781,13 @@ class Actionrecevier(Action):
             dispatcher.utter_message('Original NIC With Photocopy \n MTCH (Western Union)\n'
                                      'Reference Number (Money Gram)\n Pin Number (RIA)\n'
                     'Sender Name\n Receiver Name as per ID\n')
+
+            dispatcher.utter_message("This is the following requirments for sender: ")
+
+            dispatcher.utter_message('* Original NIC With Photocopy \n * Receiver name as per ID\n'
+                                     '* Contact Number\n * Address)\n'
+                                     '* Receiver Bank Account Details (If receiver has bank account)\n')
+
             print("receiver requirement printed")
             res_admin = {
 

@@ -21,10 +21,10 @@
 - thnks
 
 ## intent:receiver
-- [Receiver Requirements]{"entity":"requirement_receiver"}
-- i need to know about [requirements of receiver]{"entity":"requirement_receiver"}
-- i need to know about [Receiver Requirements]{"entity":"requirement_receiver"}
-- [Requirements Receiver ]{"entity":"requirement_receiver"}
+- [Transfer Requirements]{"entity":"requirement_receiver"}
+- i need to know about [Transfer of receiver]{"entity":"requirement_receiver"}
+- i need to know about [Transfer Requirements]{"entity":"requirement_receiver"}
+- [Transfer Receiver ]{"entity":"requirement_receiver"}
 
 ## intent:send
 - [Sender Requirements']{"entity":"requirement_send"}

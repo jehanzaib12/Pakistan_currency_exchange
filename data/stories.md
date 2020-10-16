@@ -4,8 +4,8 @@
 
 
 # story_Requirements_of_Receiver
-* receiver{"requirement_receiver":"Receiver Requirements"}
-    - slot{"requirement_receiver":"Receiver Requirements"}
+* receiver{"requirement_receiver":"Transfer Requirements"}
+    - slot{"requirement_receiver":"Transfer Requirements"}
     - action_receiver
 
 # story_Requirements_of_sender
